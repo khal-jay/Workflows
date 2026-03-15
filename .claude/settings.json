@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/user/.claude/**)",
+      "Read(//Users/user/**)",
+      "Bash(find /Users/user -maxdepth 1 -type f -name .*)",
+      "Bash(find /Users/user/.claude/plans -type f -name *.md)",
+      "Bash(wc -l /Users/user/.claude/plans/*.md)",
+      "WebFetch(domain:cdn.jsdelivr.net)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(system_profiler SPDisplaysDataType)",
+      "Bash(find ~/.claude/agents/ -type f -name *.md)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(mkdir -p ~/workflow-kit/claude/agents ~/workflow-kit/claude/skills ~/workflow-kit/shell ~/workflow-kit/tools)",
+      "Bash(git -C ~/workflow-kit init)",
+      "Bash(bun --version)",
+      "Bash(curl -fsSL https://bun.sh/install)",
+      "Bash(bash)",
+      "Bash(mkdir -p ~/.claude/skills)",
+      "Bash(ln -sf ~/workflow-kit/tools/gstack ~/.claude/skills/gstack)",
+      "Bash(~/workflow-kit/tools/gstack/browse/dist/browse --version)",
+      "Bash(ls /Users/user/.gemini/antigravity/knowledge/agents/agency-*.md)",
+      "Bash(ls /Users/user/workflow-kit/claude/agents/agency-*.md)",
+      "Bash(cp ~/workflow-kit/antigravity/_agents/workflows/security-audit.md ~/.gemini/workflows/)",
+      "Bash(cp ~/workflow-kit/antigravity/_agents/workflows/start-feature.md ~/.gemini/workflows/)",
+      "Bash(cp ~/workflow-kit/antigravity/_agents/workflows/ui-polish.md ~/.gemini/workflows/)"
+    ],
+    "additionalDirectories": [
+      "/Users/user/workflow-kit/claude",
+      "/Users/user/workflow-kit",
+      "/Users/user/.claude",
+      "/Users/user/.gemini/antigravity/knowledge/agents"
+    ]
+  }
+}
