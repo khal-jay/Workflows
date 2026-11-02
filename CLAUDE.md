@@ -27,6 +27,22 @@ Before any build is approved, answer:
 
 If these can't be answered, the idea is not ready to build.
 
+## Task-Level North Star & Mini Goals (apply at build stage)
+Every task in `build/` gets its own North Star breakdown before implementation starts.
+
+For each task:
+1. Write a task-level North Star statement
+2. Break into 2–5 mini goals, each with explicit acceptance criteria
+3. Agent loops on each mini goal until 100% of AC pass — no partial credit
+4. If stuck after 2 attempts on same AC → surface to human, do not skip
+
+Mini goal format:
+```
+[ ] Mini Goal: <outcome>
+    AC: - <testable criterion>
+        - <testable criterion>
+```
+
 ## File Naming
 All entries: `YYYY-MM-DD-<slug>.md`
 Iteration entries: `YYYY-MM-DD-<slug>-v<N>.md`

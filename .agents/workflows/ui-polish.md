@@ -1,4 +1,5 @@
 ---
+name: ui-polish
 description: Polish the UI with Designer review and QA validation
 ---
 1. Activate `product-designer` to review the current UI implementation against the design system and "WOW" standards.

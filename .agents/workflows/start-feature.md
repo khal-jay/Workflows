@@ -1,4 +1,5 @@
 ---
+name: start-feature
 description: Begin a new feature with PM scoping and Architect design
 ---
 1. Activate `product-manager` to define the feature scope, North Star, and success metrics.
